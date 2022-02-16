@@ -14,6 +14,7 @@
 		9F9174A527BD8B23008A6A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9174A427BD8B23008A6A1A /* Assets.xcassets */; };
 		9F9174A827BD8B23008A6A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9174A627BD8B23008A6A1A /* LaunchScreen.storyboard */; };
 		9F9174B027BD8ED9008A6A1A /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9174AF27BD8ED9008A6A1A /* secondViewController.swift */; };
+		9F9174B227BD927C008A6A1A /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9174B127BD927C008A6A1A /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9F9174A727BD8B23008A6A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F9174A927BD8B23008A6A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F9174AF27BD8ED9008A6A1A /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		9F9174B127BD927C008A6A1A /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9F91749D27BD8B22008A6A1A /* SceneDelegate.swift */,
 				9F91749F27BD8B22008A6A1A /* ViewController.swift */,
 				9F9174A127BD8B22008A6A1A /* Main.storyboard */,
+				9F9174B127BD927C008A6A1A /* thirdViewController.swift */,
 				9F9174AF27BD8ED9008A6A1A /* secondViewController.swift */,
 				9F9174A427BD8B23008A6A1A /* Assets.xcassets */,
 				9F9174A627BD8B23008A6A1A /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				9F9174B027BD8ED9008A6A1A /* secondViewController.swift in Sources */,
 				9F9174A027BD8B22008A6A1A /* ViewController.swift in Sources */,
+				9F9174B227BD927C008A6A1A /* thirdViewController.swift in Sources */,
 				9F91749C27BD8B22008A6A1A /* AppDelegate.swift in Sources */,
 				9F91749E27BD8B22008A6A1A /* SceneDelegate.swift in Sources */,
 			);

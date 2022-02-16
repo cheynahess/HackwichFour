@@ -36,6 +36,40 @@
             </objects>
             <point key="canvasLocation" x="1413.0434782608697" y="193.52678571428569"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="OqE-2f-Ca4">
+            <objects>
+                <viewController id="qvr-ns-muk" customClass="thirdViewController" customModule="HackwichFour" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NDX-nx-dB5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XF9-tC-TZK">
+                                <rect key="frame" x="140" y="392" width="135" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPG-JY-Oma">
+                                <rect key="frame" x="120" y="622" width="174" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NWd-Gu-tx6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="ButtonPressed" destination="JPG-JY-Oma" id="YnU-pK-5AK"/>
+                        <outlet property="thirdTabLabel" destination="XF9-tC-TZK" id="fr9-ps-El4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dXo-u7-HmG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2263.768115942029" y="193.52678571428569"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="1K4-HZ-hFJ">
             <objects>
@@ -105,7 +139,7 @@
         <scene sceneID="YXB-68-KLN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nA2-w0-SV4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="YLy-HE-hk0"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" selectedImage="heart.fill" catalog="system" id="YLy-HE-hk0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WtS-Tq-smH">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -122,6 +156,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
